@@ -1,0 +1,25 @@
+[project]
+name = "companya-integration-node"
+version = "0.2.0"
+description = "MCP Server for Secure Financial Intelligence - Demonstrates compliant AI activation with LangGraph state management"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "fastmcp>=2.14.0",
+    "yfinance>=0.2.28",
+    "langgraph>=0.2.0",
+    "langchain-core>=0.3.0",
+    "langchain-anthropic>=0.3.0",
+    "aiosqlite>=0.20.0",
+    "ragas>=0.2.9",
+    "datasets>=2.14.0",
+    "fastapi>=0.115.0",
+    "uvicorn[standard]>=0.32.0",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[dependency-groups]
+dev = []
