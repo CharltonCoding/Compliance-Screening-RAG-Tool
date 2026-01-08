@@ -128,19 +128,6 @@ cd frontend
 npm run dev  # Runs on localhost:3000
 ```
 
-### Access the Application
-
-- **Frontend Dashboard**: http://localhost:3000
-- **Backend API**: http://localhost:8000
-- **API Documentation**: http://localhost:8000/docs
-
-### Optional: MCP Integration with Claude Desktop
-
-To use the tools directly with Claude Desktop:
-
-**Config file location:**
-- macOS: `~/Library/Application Support/Claude/claude_desktop_config.json`
-- Windows: `%APPDATA%\Claude\claude_desktop_config.json`
 
 ```json
 {
